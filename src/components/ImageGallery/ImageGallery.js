@@ -7,7 +7,7 @@ function ImageGallery({ imageArray, onImgClick }) {
         <li
           key={arrayEl.id}
           className={s.ImageGalleryItem}
-          onClick={onImgClick}
+          onClick={() => onImgClick(arrayEl)}
         >
           <ImageGalleryItem imageObj={arrayEl} />
         </li>

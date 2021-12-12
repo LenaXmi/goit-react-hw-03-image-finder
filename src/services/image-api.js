@@ -7,7 +7,7 @@ const API = function (searchQuery, page) {
     if (response.ok) {
       return response.json();
     }
-    return Promise.reject(new Error(`There is not images`));
+    return Promise.reject(new Error(`There is no images`));
   });
 };
 export default API;
