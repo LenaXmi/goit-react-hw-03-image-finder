@@ -2,7 +2,7 @@ import s from './Button.module.css';
 
 function LoadMore({ fetchMoreImg }) {
   return (
-    <button type="button" className={s.Button} onClick={fetchMoreImg}>
+    <button className={s.Button} onClick={fetchMoreImg} type="button">
       Load more
     </button>
   );

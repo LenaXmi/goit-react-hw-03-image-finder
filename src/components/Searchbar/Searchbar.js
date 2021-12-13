@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { BsSearch } from 'react-icons/bs';
+
 import s from './Searchbar.module.css';
 class Searchbar extends Component {
   state = {
